@@ -1,0 +1,233 @@
+<html>
+
+<head>
+    <title>Sesi 2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #C7E0FF;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .container {
+            width: 1280px;
+            margin: 0 auto;
+        }
+
+        nav {
+            align-items: center;
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+            align-items: center;
+            box-shadow: 0 8px 6px -6px grey;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            width: 50%;
+            justify-content: end;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black
+        }
+
+        nav a:hover {
+            color: #719bce;
+        }
+
+        nav li {
+            padding-right: 20px;
+            font-size: 14px;
+        }
+
+        .profile {
+            border-radius: 5px;
+            background-color: white;
+            padding: 20px;
+            margin: 50px auto;
+            display: flex;
+            justify-content: left;
+        }
+
+        .profile .tulisan p {
+            margin-top: -20px;
+        }
+
+        .profile button {
+            width: 80px;
+            height: 30px;
+            border-radius: 5px;
+        }
+
+        .profile .kontak {
+            background-color: blue;
+            color: white;
+        }
+
+        .left-profile {
+            display: flex;
+            margin-right: 100px;
+            align-items: center;
+            margin-left: 60px;
+        }
+
+        .left-profile img {
+            width: 200px;
+            height: 200px;
+            margin-right: 40px;
+            border-radius: 50%;
+        }
+
+        .right-profile {
+            align-items: center;
+            padding: 20px;
+            margin-right: 100px;
+            margin-top: 30px;
+        }
+
+        .form {
+            border-radius: 5px;
+            background-color: white;
+            padding: 20px;
+            margin: 50px auto;
+        }
+
+        .form-item {
+            margin-bottom: 10px;
+        }
+
+        .input-form {
+            width: 100%;
+            height: 35px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .form button {
+            width: 100%;
+            height: 35px;
+            background-color: green;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar  -->
+    <nav>
+        <div class="logo">asdasdas</div>
+        <ul class="menu">
+            <li class="menu-item"><a href="./sesi3.html">Home</a></li>
+            <li class="menu-item"><a href="#">Product</a></li>
+            <li class="menu-item"><a href="#">Gallery</a></li>
+            <li class="menu-item"><a href="./sesi4.html">Blog</a></li>
+            <li class="menu-item"><a href="#">Inventory</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- profile -->
+    <section>
+        <div class="container">
+            <div class="profile">
+                <div class="left-profile">
+                    <div class="foto">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnLLwllkqgrK2iDNHU1EZ9Jv1W3qrJ9LICYf1-KK-16aOSC3Bweor7y5cM2HrM4XKrJmg&usqp=CAU"
+                            alt="" width="200px">
+                    </div>
+                    <div class="tulisan">
+                        <h1>Daffa Damar Ardhika</h1>
+                        <p>Front End Designer</p>
+                        <button class="kontak">Kontak</button>
+                        <button class="resume">Resume</button>
+                    </div>
+                </div>
+                <div class="right-profile">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td><b>Avaibility</b></td>
+                            <td>: Fulltime</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Usia</b>
+                            </td>
+                            <td>
+                                : 20
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b>Lokasi</b></p>
+                            </td>
+                            <td>
+                                <p>: Jakarta</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Pengalaman</b></td>
+                            <td>: 2 Tahun</td>
+                        </tr>
+                        <tr>
+                            <td><b>Email</b></td>
+                            <td>: daffaardhika@gmail.com</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- form -->
+    <section>
+        <div class="container">
+            <div class="form">
+                <form action="">
+                    <div class="form-item">
+                        <label class="form-label" for="nama">Nama</label>
+                        <input class="input-form" type="text" name="nama" id="nama" placeholder=" Masukan nama anda ...">
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label" for="role">Role</label>
+                        <input class="input-form" type="text" name="role" id="role" placeholder=" Masukan role anda ..." />
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label" for="avaibility">Avaibility</label>
+                        <input class="input-form" type="text" name="avaibility" id="avaibility" placeholder=" Masukan avaibility anda ..." />
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label" for="usia">Usia</label>
+                        <input class="input-form" type="text" name="usia" id="usia" placeholder=" Masukan usia anda ..." />
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label" for="lokasi">Lokasi</label>
+                        <input class="input-form" type="text" name="lokasi" id="lokasi" placeholder=" Masukan lokasi anda ..." />
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label" for="years Experience">Years Experience</label>
+                        <input class="input-form" type="text" name="" id="" placeholder=" Masukan year experience anda ..." />
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label" for="email">Email</label>
+                        <input class="input-form" type="email" name="email" id="email" placeholder=" Masukan email anda ..." />
+                    </div>
+                    <button>SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
